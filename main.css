@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(37, 119, 146); /* sets the background color of the page to light blue */
+    color:bisque; /* sets the text color to bisque for better readability */
+}
+
+
+h1
+{
+    text-align: center; /* centers the main heading */
+    font-style: italic; /* makes the font italic */
+    text-decoration: underline; /* underlines the main heading */
+    color: rgb(182, 120, 120); /* sets the color of the main heading */
+}
+
+nav a {
+    color: yellow; /* sets the color of navigation links to yellow */
+    margin: 0 10px; /* adds horizontal spacing between links */
+    display: flex; /* makes links flex items */
+    justify-content: flex-end; /* centers the links horizontally */
+}
+
+h2 {
+    color: rgb(240, 128, 128); /* sets the color of secondary headings */
+    text-align: center; /* aligns secondary headings to the left */
+    font-family: 'Arial', sans-serif; /* sets the font family for secondary headings */
+}
+
+footer {
+    text-align: center; /* centers the footer text */
+    font-size: 0.8em; /* makes the footer text smaller */
+    color: rgb(197, 238, 131); /* sets the footer text color to a green shade */
+    margin-top: 70px; /* adds space above the footer */
+}
+
+ol {
+    margin-left: 20px; /* adds left margin to ordered lists */
+    color:chartreuse; /* sets the text color of ordered lists to chartreuse */
+    font-size: larger; /* increases the font size of ordered lists */
+}
+#startButton {
+    display: block; /* makes the button a block element */
+    margin: 0 auto; /* centers the button horizontally */
+    padding: 10px 20px; /* adds padding to the button */
+    font-size: 16px; /* sets the font size of the button */
+    /*background-color: rgb(100, 149, 237); /* sets the background color of the button */
+    color: black; /* sets the text color of the button */
+    border: none; /* removes the default border */
+    border-radius: 50px; /* adds rounded corners to the button */
+    cursor: pointer; /* changes the cursor to a pointer when hovering over the button */
+}
+#stopButton {
+    display: block; /* makes the button a block element */
+    margin: 0 auto; /* centers the button horizontally */
+    padding: 10px 20px; /* adds padding to the button */
+    font-size: 16px; /* sets the font size of the button */
+    /*background-color: rgb(100, 149, 237); /* sets the background color of the button */
+    color: black; /* sets the text color of the button */
+    border: none; /* removes the default border */
+    border-radius: 50px; /* adds rounded corners to the button */
+    cursor: pointer; /* changes the cursor to a pointer when hovering over the button */
+}
