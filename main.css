@@ -1,6 +1,9 @@
 body {
     background-color: rgb(37, 119, 146); /* sets the background color of the page to light blue */
     color:bisque; /* sets the text color to bisque for better readability */
+    background-image: url("assets/brick.png");
+    background-size:cover;
+    background-repeat: repeat;
 }
 
 
@@ -9,7 +12,7 @@ h1
     text-align: center; /* centers the main heading */
     font-style: italic; /* makes the font italic */
     text-decoration: underline; /* underlines the main heading */
-    color: rgb(182, 120, 120); /* sets the color of the main heading */
+    color: rgb(214, 196, 196); /* sets the color of the main heading */
 }
 
 nav a {
@@ -47,6 +50,7 @@ ol {
     border: none; /* removes the default border */
     border-radius: 50px; /* adds rounded corners to the button */
     cursor: pointer; /* changes the cursor to a pointer when hovering over the button */
+    box-shadow: 0cqmax;
 }
 #stopButton {
     display: block; /* makes the button a block element */
